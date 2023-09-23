@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    background-color: rgb(227, 219, 198);
+}
+.card-container{
+    background-color: rgb(24, 19, 19);
+    color: aliceblue;
+    padding: 2rem;
+    width: 30%;
+    margin: .5rem;
+    border-radius: .4rem;
+}
+.card-top-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.card-top-navigation li,
+.card-top-navigation ul {
+    list-style: none;
+    font-size: 1.2rem;
+}
+.card-top-navigation ul i {
+    margin-left: 10px;
+}
+.user-image{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin: 10px auto;
+}
+.user-image img{
+    width: 150px;
+    height: 200px;
+    border-radius: 20%;
+}
+.user-name,
+.about-user{
+    text-align: center;
+    margin: 1.2rem;
+}
+.user-name{
+    color: rgb(24, 166, 173);
+}
+.hire-me{
+    margin: 1.5rem auto;
+    display: block;
+    border: none;
+    padding: .8rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.social-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.social-item li {
+    list-style: none;
+    padding: 0.8rem;
+    border-radius: 15%;
+}
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.youtube {
+    background-color: #ff0000;
+}
+.twitter {
+    background-color: #1D9BF0;
+}
+.social-item i {
+    font-size: 1.5rem;
+}
+
+.social-item span {
+    margin-top: .5rem;
+}
